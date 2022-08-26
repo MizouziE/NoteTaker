@@ -1,5 +1,5 @@
 <script setup>
-
+  import Tiptap from './components/Tiptap.vue'
 </script>
 
 <template>
@@ -9,6 +9,9 @@
     </div>
     <div class="flex flex-col flex-grow">
       <!-- Main Content -->
+      <div class="flex flex-col flex-grow overflow-auto">
+        <tiptap />
+      </div>
     </div>
   </div>
 </template>
